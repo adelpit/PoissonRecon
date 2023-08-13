@@ -32,7 +32,7 @@ DAMAGE.
 #include "FEMTree.h"
 #include "VertexFactory.h"
 
-#undef USE_DOUBLE								// If enabled, double-precesion is used
+#define USE_DOUBLE								// If enabled, double-precesion is used
 
 #define DATA_DEGREE 0							// The order of the B-Spline used to splat in data for color interpolation
 #define WEIGHT_DEGREE 2							// The order of the B-Spline used to splat in the weights for density estimation
